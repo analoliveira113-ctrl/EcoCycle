@@ -31,14 +31,17 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Gerar ícones e splash Android
-        run: npx capacitor-assets generate --android
-
       - name: Compilar React
         run: npm run build
 
       - name: Criar projeto Android nativo
         run: npx cap add android
+
+      - name: Gerar ícones e splash Android
+        run: npx capacitor-assets generate --android
+
+      - name: Sincronizar Capacitor
+        run: npx cap sync android
 
       - name: Sincronizar Capacitor
         run: npx cap sync android
