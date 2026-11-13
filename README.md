@@ -52,3 +52,6 @@ O workflow `.github/workflows/android-build.yml` executa ao enviar commits para 
 - Persistência local dos registros no dispositivo
 
 > Os registros ficam salvos localmente no dispositivo. Para compartilhar os dados entre usuários, será necessário conectar um banco de dados/backend.
+<img width="1036" height="680" alt="Captura de tela 2026-11-13 104354" src="https://github.com/user-attachments/assets/3fc53617-dc23-4248-bcca-33e987e702a6" />
+<img width="924" height="683" alt="Captura de tela 2026-11-13 104437" src="https://github.com/user-attachments/assets/7bf14510-2800-45c6-88c5-67603e0ecad8" />
+
